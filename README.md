@@ -1,2 +1,2 @@
-# Test_Django
-This is Django
+# Test_Study
+个人博客
