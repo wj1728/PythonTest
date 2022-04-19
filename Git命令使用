@@ -1,0 +1,53 @@
+Git基命令如下：
+
+git init : 初始化当前仓库
+
+git add **： 把当前文件添加到暂存区去
+
+git commit –m “**” 提交文件 –m 后面的是注释。
+
+git diff ** 查看文件修改的地方
+
+git status 查看当前GIT仓库状态
+
+git reset –hard HEAD^ 回退到上一个版本
+
+git reflog 查看历史记录的版本号id
+
+git checkout — ** 把**文件在工作缓冲区的修改撤销掉。
+
+git rm ** 删除文件
+
+git remote add origin https://github.com/ 本地关联一个远程仓库
+
+git push –u(首次要加-u 以后不要) origin master 把当前master分支推送到远程库
+
+git clone https://github.com/从远程库中克隆
+
+git checkout –b dev 创建 并切换到dev分支
+
+git branch 查看GIT所有的分支
+
+git checkout master 切换到master分支
+
+git merge dev 在当前的分支上合并dev分支
+
+git stash list 查看所有被隐藏的文件列表
+
+git branch –d dev 删除dev分支
+
+git branch name 创建name分支
+
+git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作
+
+git stash drop 删除文件
+
+git stash pop 恢复文件的同时 也删除文件
+
+git remote 查看远程库的信息
+
+git remote –v 查看远程库的版本信息
+
+git push origin master Git会把master分支推送到远程仓库
+
+git checkout $commit_id~1 filename 恢复刚刚commit删除的文件
